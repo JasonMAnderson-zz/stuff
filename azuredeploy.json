@@ -1,12 +1,12 @@
-{
+2
    "parameters":{  
       "siteName":{  
          "type":"string",
-         "defaultValue":"jandersbuild1"
+         "defaultValue":"jandersbuild2"
       },
       "servicePlanName":{  
          "type":"string",
-         "defaultValue":"janders"
+         "defaultValue":"build2017"
       },
       "location":{  
          "type":"string",
@@ -35,7 +35,7 @@
       },
       "serverName":{  
          "type":"string",
-	 "defaultValue":"jandersbuild1",
+	 "defaultValue":"jandersbuild2mysql",
          "metadata":{  
             "description":"WordPress Database Host"
          }
