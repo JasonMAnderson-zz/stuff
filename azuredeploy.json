@@ -2,11 +2,11 @@
    "parameters":{  
       "siteName":{  
          "type":"string",
-         "defaultValue":"azuredbmysql"
+         "defaultValue":"zencove"
       },
       "servicePlanName":{  
          "type":"string",
-         "defaultValue":"Build2017"
+         "defaultValue":"zencove"
       },
       "location":{  
          "type":"string",
@@ -34,14 +34,14 @@
       },
       "serverName":{  
          "type":"string",
-	 "defaultValue":"azuredbmysql",
+	 "defaultValue":"zencove-db-server",
          "metadata":{  
             "description":"WordPress Database Host"
          }
       },
       "databaseName":{  
          "type":"string",
-	 "defaultValue":"wordpress",
+	 "defaultValue":"zencovedb",
          "metadata":{  
             "description":"WordPress Database Name"
          }
